@@ -56,7 +56,7 @@ volatile UInt speed2 = 0;		// Speed of motors on side 2
 extern const Semaphore_Handle ReverseTsk;
 extern const Semaphore_Handle ForwardTsk;
 extern const Swi_Handle SpeedSWI;
-//==============================================================================
+
 
 /*========================================================
  * Main function initializes everything and then runs
@@ -71,7 +71,6 @@ void main(void)
     BIOS_start(); // Initiate real time operating system, does not return
 }
 
-//==============================================================================
 
 /*========================================================
  *ReverseTskFxn is priority 2 and backs up the car for REVCNT
