@@ -15,4 +15,8 @@ Hardware:
   
   Videos: https://www.youtube.com/watch?v=ZOBH44eo8TY
   
-  Please see the attached images for RTOS priorities and hardware connections.
+  Please see the attached images for RTOS priorities, system overview and CPU utilization.
+  
+  Please read the attached PDF for an indepth look at the Moomba.
+
+Thanks for looking.
